@@ -6,21 +6,27 @@
 <br>
 <form method='POST' action='/search4' align="center">
 <table align="center">
-<h2 align="center">请输入您和他（她）的信息</h2>  读取使用者信息输入
+<h2 colspan="2">请输入您和他（她）的信息</h2>
 <br><br>
 <table align="center" border="1px" cellspacing="0px" bordercolor="white">
 <tr><td>生肖一: </td><td>
-<select name='shengxiao1'>
-  {% for item in entry_shenxiao_list %}
-    <option value="{{item}}">{{item}}</option>
-  {% endfor %}
-  </select>
+  <input type="text" name='shengxiao1' list="shengxiao1" placeholder="如：鼠" />
+    <datalist id="shengxiao1">
+    <select name='shengxiao1'>
+    {% for item in entry_shenxiao_list %}
+      <option value="{{item}}">{{item}}</option>
+    {% endfor %}
+    </select>
+    </datalist>
 <tr><td>生肖二: </td><td>
-<select name='shengxiao2'>
-  {% for item in entry_shenxiao_list %}
+  <input type="text" name='shengxiao2' list="shengxiao2" placeholder="如：鼠" />
+    <datalist id="shengxiao2">
+    <select name='shengxiao2'>
+    {% for item in entry_shenxiao_list %}
     <option value="{{item}}">{{item}}</option>
-  {% endfor %}
-  </select>
+    {% endfor %}
+    </select>
+    </datalist>
 </table>
 <br><br>
 </table>
