@@ -52,7 +52,7 @@
 * 此API需要发送的请求参数为shengxiao1（需要配对的主生肖），shengxiao2（需要配对的副生肖）；请求方式为 POST。
 * 发送请求后将返回shengxiao1（需要配对的主生肖），shengxiao2（需要配对的副生肖），content1（女方为主生肖时的结果），content2（男方为主生肖时的结果）;返回格式为JSON。
 * [API接口地址](http://api.avatardata.cn/ShengXiaoPeiDui/Lookup)
-* API请求参数：key=d42c15b8e42d747c712fd15aa1509f13&shengxiao1=++++&shengxiao2=++++
+* API请求参数：key=b27767d0aecb4ed7b70333b213a24464&shengxiao1=++++&shengxiao2=++++
 
 ## Web APP动作描述：
 
