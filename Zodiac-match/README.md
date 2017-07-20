@@ -25,7 +25,7 @@
 ### 输入：
 * 用户选择两个匹配者的生肖，交互界面使用到[HTML之select 表单元素](http://www.w3school.com.cn/tags/tag_select.asp)加[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)，显示的是生肖，其对应值是对应显示的生肖。所以代码文件可以找到所需要的生肖，即用户可以通过填写生肖名或者选择生肖名输入所需要的指标。 
 * 详情见[templates/C_entry.html](templates/C_entry.html)。
-![输入](输入.png)
+![输入](输入.png) 
 
 ### 输出：
 * 两个测试者的生肖。
