@@ -47,8 +47,12 @@
 * [flask](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832805619b3e68a9cf16c4d0398d8af8f6d50e740000)</br>
 
 ### API
-* 来源： [DT阿凡达数据](http://avatardata.cn/Docs/Api/08803b8c-6ce0-4dd0-9809-361a06f25c99)
+* 来源： [DT阿凡达数据](http://avatardata.cn/Docs/Api/08803b8c-6ce0-4dd0-9809-361a06f25c99)里的生肖配对。
 * 从[DT阿凡达数据](http://avatardata.cn/Docs/Api/08803b8c-6ce0-4dd0-9809-361a06f25c99)平台中获取生肖配对的API接口和秘钥key及相关资料，然后在[Zodiac_run.py](Zodiac_run.py) 中抓取网站、调用API。
+* 此API需要发送的请求参数为shengxiao1（需要配对的主生肖），shengxiao2（需要配对的副生肖）；请求方式为 POST。
+* 发送请求后将返回shengxiao1（需要配对的主生肖），shengxiao2（需要配对的副生肖），content1（女方为主生肖时的结果），content2（男方为主生肖时的结果）;返回格式为JSON。
+* [API接口地址](http://api.avatardata.cn/ShengXiaoPeiDui/Lookup)
+* API请求参数：key=d42c15b8e42d747c712fd15aa1509f13&shengxiao1=++++&shengxiao2=++++
 
 ## Web APP动作描述：
 
